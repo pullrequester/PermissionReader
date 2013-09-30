@@ -2,10 +2,6 @@
 
 class PermissionReader{
 
-  public function __construct(){
-    return null;
-  }
-
   public function getFilenames($dir = '.', $isFullPath = false){
     $dh = opendir($dir);
 
